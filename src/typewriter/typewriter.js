@@ -33,7 +33,7 @@ const Typewriter = ({ text, delayBeforeDeleting }) => {
 const App = () => {
   return (
     <div className="text">
-      <Typewriter text="Venha estudar na Fatec!" delayBeforeDeleting={1000} />
+      <Typewriter text="Conheça a Fatec!" delayBeforeDeleting={1000} />
     </div>
   );
 };
