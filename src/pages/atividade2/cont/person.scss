@@ -1,0 +1,24 @@
+.counter {
+  height: auto;
+  width: 250px;
+  background-color: white;
+  border-radius: 10px;
+
+  .div {
+    border: 3px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+
+    h3 {
+      text-align: center;
+    }
+    .imgPerson {
+      height: 70%;
+      width: 70%;
+    }
+  }
+}

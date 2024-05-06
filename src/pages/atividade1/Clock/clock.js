@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import "./clock.scss";
 
 function formatTimeValue(value) {
@@ -43,7 +43,6 @@ function Clock() {
 
   return (
     <>
-      <h1>Primeira atividade</h1>
       <div className="clock-container">
         <div className="clock">
           <div className="clock-box">
