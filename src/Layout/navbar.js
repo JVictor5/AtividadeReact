@@ -20,6 +20,9 @@ const Navbar = () => {
       <li>
         <Link to="/atividade4">Semana 4</Link>
       </li>
+      <li>
+        <Link to="/atividade5">Semana 5</Link>
+      </li>
     </ul>
   );
 };

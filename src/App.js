@@ -4,6 +4,7 @@ import Ativ1 from "./pages/atividade1/ativ1";
 import Ativ2 from "./pages/atividade2/ativ2";
 import Ativ3 from "./pages/atividade3/Atv03";
 import Ativ4 from "./pages/atividade4/Atv04";
+import Ativ5 from "./pages/atividade5/atv05";
 import Navbar from "./Layout/navbar";
 
 export default function App() {
@@ -16,6 +17,7 @@ export default function App() {
         <Route path="/atividade2" element={<Ativ2 />} />
         <Route path="/atividade3" element={<Ativ3 />} />
         <Route path="/atividade4" element={<Ativ4 />} />
+        <Route path="/atividade5" element={<Ativ5 />} />
       </Routes>
     </BrowserRouter>
   );
